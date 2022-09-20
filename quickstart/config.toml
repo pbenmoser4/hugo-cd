@@ -1,0 +1,11 @@
+baseURL = "http://pbm-first-hugo-site.s3-website-us-east-1.amazonaws.com"
+languageCode = "en-us"
+title = "My New Hugo Site via AWS Cloud9"
+theme = "ananke"
+
+[deploymnet]
+
+[[deployment.targets]]
+# arbitrary name
+name = "firstDeploy"
+URL = "s3://pbm-first-hugo-site/?region=us-east-1"
